@@ -1,8 +1,8 @@
 "use client";
 
 import React, { useEffect } from "react";
-import Navbar from '@/app/(components)/Navbar'
-import Sidebar from "@/app/(components)/SideBar";
+import Navbar from '@/components/Navbar'
+import Sidebar from "@/components/SideBar";
 import StoreProvider, { useAppSelector } from "./redux";
 
 const DashboardLayout = ({ children }: { children: React.ReactNode }) => {
